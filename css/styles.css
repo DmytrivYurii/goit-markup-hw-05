@@ -524,6 +524,15 @@ img {
 .border-icon-footer:focus{
   background-color: #31d0aa;
 }
+.email {
+  display: flex;
+}
+.email-label {
+}
+.subscribe {
+}
+.svg-subscribe {
+}
 /*--------------------Portfolio----------------------*/
 
 /*-------------------------Section Button--------------------*/
