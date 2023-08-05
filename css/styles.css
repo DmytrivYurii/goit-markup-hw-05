@@ -525,14 +525,70 @@ img {
   background-color: #31d0aa;
 }
 .email {
+  padding-left: 80px;
+}
+.form-footer{
+  position: relative;
   display: flex;
+  gap: 24px;
+}
+.email-title{
+  color: #FFFFFF;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
 }
 .email-label {
 }
+.input-label{
+  width: 264px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  border: 1px solid #FFFFFF;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  background-color: transparent;
+}
+.input-label::placeholder{
+  color: #ffffff;
+  padding-left: 16px;
+  font-family: "Roboto";
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
 .subscribe {
+  display: flex;
+  justify-content: center;
+  align-items: center;    
+  width: 165px;
+  height: 40px;
+  border-radius: 4px;
+  background: #4D5AE5;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5em;
+  letter-spacing: 0.04em;
+  outline: transparent;
+  border-style: none;
+  padding: 8px 64px 8px 24px;
+  min-width: 165px;
+  cursor: pointer;
 }
 .svg-subscribe {
+  fill: #FFFFFF;
+  background-color: #4D5AE5;
+  position: absolute;
+  bottom: 8px;
+  right: 24px;
+  margin-left: 16px;
 }
+
 /*--------------------Portfolio----------------------*/
 
 /*-------------------------Section Button--------------------*/
