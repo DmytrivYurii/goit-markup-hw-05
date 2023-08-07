@@ -720,7 +720,6 @@ input[type="email"]::placeholder {
 /*------------------Modal page---------------------*/
 
 .modal-page {
-  padding: 72px 24px 24px 24px;
   position: fixed;
   top: 0;
   left: 0;
@@ -737,6 +736,7 @@ input[type="email"]::placeholder {
 }
 
 .modal-page-open {
+  padding: 72px 24px 24px 24px;
   position: absolute;
   top: 50%;
   left: 50%;
