@@ -866,12 +866,10 @@ input[type="email"]::placeholder {
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  border: 1px solid rgba(46, 47, 66, 0.4);
   fill: transparent;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  fill: transparent;
 }
 .input-checkbox:checked + .privacy-checkbox span {
   background-color: #404bbf;
