@@ -323,7 +323,6 @@ img {
 /*----------------------Section Team-----------------*/
 .team {
   padding: 120px 0;
-  margin-bottom: 120px;
   background-color: #f4f4fd;
 }
 .team-subtitle {
@@ -413,7 +412,6 @@ img {
 }
 .customs-list {
   gap: 24px;
-  margin-bottom: 120px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -526,7 +524,7 @@ img {
   background-color: #31d0aa;
 }
 .email {
-  padding-left: 80px;
+  margin-left: 80px;
 }
 .form-footer {
   position: relative;
@@ -835,7 +833,7 @@ input[type="email"]::placeholder {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
-  color: rgba(46, 47, 66, 0.4);
+  color: #2E2F42, rgba(46, 47, 66, 0.4);
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   background-color: transparent;
