@@ -865,17 +865,13 @@ input[type="email"]::placeholder {
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   fill: transparent;
   display: inline-flex;
   align-items: center;
   justify-content: center;
 }
-.input-checkbox:checked + .privacy-checkbox span {
-  background-color: #404bbf;
-  border: none;
-  fill: #f4f4fd;
-}
+
 .modal-link {
   color: #4d5ae5;
 }
@@ -893,4 +889,9 @@ input[type="email"]::placeholder {
   border-radius: 4px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin: auto;
+}
+.input-checkbox:checked + .privacy-checkbox span {
+  background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
 }
