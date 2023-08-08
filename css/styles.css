@@ -870,6 +870,7 @@ input[type="email"]::placeholder {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  margin-right: 8px;
 }
 .modal-link {
   color: #4d5ae5;
@@ -893,4 +894,8 @@ input[type="email"]::placeholder {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
+}
+::placeholder{
+  color: #2E2F42, rgba(46, 47, 66, 0.4);
+  opacity: .5;
 }
